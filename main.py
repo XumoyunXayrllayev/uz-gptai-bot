@@ -6,7 +6,7 @@ import openai
 
 # 🔐 API kalitlar
 TELEGRAM_TOKEN = '7512558958:AAEfvh45gp7mIbsN5HfYpKEtquw6anDMbz0'  # bu yerga o'zingizning tokeningizni yozing
-OPENAI_API_KEY = '7355234094:AAGNISiLPtzjsE1DbQPJQEunp_xNH8fbJ5w'      # OpenAI tokeningiz
+OPENAI_API_KEY = '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'      # OpenAI tokeningiz
 
 openai.api_key = OPENAI_API_KEY
 
