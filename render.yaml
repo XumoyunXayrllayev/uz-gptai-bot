@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: uz-gptai-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7512558958:AAEfvh45gp7mIbsN5HfYpKEtquw6anDMbz0
+      - key: OPENAI_API_KEY
+        value: 7355234094:AAGNISiLPtzjsE1DbQPJQEunp_xNH8fbJ5w
